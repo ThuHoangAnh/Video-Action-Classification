@@ -1,0 +1,14 @@
+# big data / outputs
+HMDB51.zip
+hmdb51_data/
+*.zip
+*.pth
+*.pt
+*.ckpt
+
+# python/jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+.env
