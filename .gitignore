@@ -1,14 +1,17 @@
-# big data / outputs
-HMDB51.zip
+# Datasets / big files
 hmdb51_data/
+data/
+action-video/
 *.zip
-*.pth
+
+# Training outputs
+weights/
+checkpoints/
 *.pt
+*.pth
 *.ckpt
 
-# python/jupyter
+# Cache
 __pycache__/
 .ipynb_checkpoints/
-*.pyc
-.venv/
-.env
+.DS_Store
