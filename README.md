@@ -155,6 +155,14 @@ id,class
 | Validation Accuracy | ~0.78                     |
 | Public Test Score   | ~0.61 → Improved with TTA |
 
+---
+
+## ⚠️ Limitation
+- Temporal information is not fully captured due to frame aggregation strategy
+- Mean pooling may lose fine-grained motion dynamics between frames
+
+---
+
 ## 🚀 Future Improvements
 
 - Grouped train/val split by video ID
